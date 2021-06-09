@@ -50,6 +50,17 @@ export default function TodoPage({ todo }: { todo: Todo }) {
         <title>{todo.name} – Amplify + Next.js</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <a
+        style={{
+          alignSelf: 'start',
+          cursor: 'pointer',
+          textDecoration: 'underline',
+          color: 'blue',
+        }}
+        href="/"
+      >
+        Go to top
+      </a>
 
       <main className={styles.main}>
         <h1 className={styles.title}>{todo.name}</h1>

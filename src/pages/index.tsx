@@ -82,18 +82,12 @@ export default function Home({ todos = [] }: { todos: Todo[] }) {
         <form onSubmit={handleCreateTodo}>
           <fieldset>
             <legend>Title</legend>
-            <input
-              defaultValue={`Today, ${new Date().toLocaleTimeString()}`}
-              name="title"
-            />
+            <input placeholder={`Insert a title`} name="title" />
           </fieldset>
 
           <fieldset>
             <legend>Content</legend>
-            <textarea
-              defaultValue="I built an Amplify app with Next.js!"
-              name="content"
-            />
+            <textarea placeholder="What you want to do?" name="content" />
           </fieldset>
 
           <button>Create Todo</button>

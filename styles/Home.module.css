@@ -78,6 +78,13 @@
   margin-top: 3rem;
 }
 
+.grid a {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 8px;
+  margin: 10px;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
