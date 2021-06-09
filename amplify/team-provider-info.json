@@ -10,6 +10,11 @@
       "StackName": "amplify-carlosamplify-dev-112404",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:899763172859:stack/amplify-carlosamplify-dev-112404/c82742d0-c8c9-11eb-85a1-0ad478f0de3d",
       "AmplifyAppId": "d3as2eay616g2g"
+    },
+    "categories": {
+      "auth": {
+        "carlosamplify901797e0": {}
+      }
     }
   }
 }
